@@ -19,6 +19,7 @@ apt -yq install autoconf \
                 libimage-exiftool-perl \
                 libtool \
                 python-dev \
+		libpff-python \
                 python-pip
 
 #sudo apt-get install automake autoconf
