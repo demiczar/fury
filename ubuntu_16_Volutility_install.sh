@@ -18,8 +18,9 @@ apt -yq install autoconf \
                 libimage-exiftool-perl \
                 libtool \
                 python-dev \
-                libpff-python \
                 python-pip
+
+pip install libpff-python
 
 # install Mongo
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
